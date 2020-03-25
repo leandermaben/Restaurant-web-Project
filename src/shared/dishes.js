@@ -19,13 +19,13 @@ export const DISHES= [
       comments: [{
          num:1,
          author:'John Doe',
-         date:'11-12-1999',
+         date:'1999-12-11',
          text:'Amazing Food'
       },
       {
          num:2,
          author:'albertEinstein',
-         date:'25-12-1999',
+         date:'1999-12-25',
          text:'E=mc^2 !!'
       }]                    
       },
