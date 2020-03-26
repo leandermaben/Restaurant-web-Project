@@ -4,12 +4,16 @@ import Menu from './components/MenuComponent.js'
 import Main from './components/MainComponent.js'
 import './App.css';
 import {DISHES} from './shared/dishes';
+import {BrowserRouter} from 'react-router-dom';
 class App extends Component{
   render(){
       return (
-        <div>
-        <Main />
-        </div>
+        <BrowserRouter>
+          <div className="App">
+            <Main />
+          </div>
+        </BrowserRouter>
+        
       );
   }
 }
